@@ -27,7 +27,7 @@ const greeting = {
   ),
   //Civic Technologist 💻 | Data Journalist 🗞 | 
   resumeLink:
-    "https://drive.google.com/file/d/1jvNjgB1QTYfH1DOGFx_8wKbM0V2uyjXY/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15lZNbIS8HztwYzVJJXfV2K4jIbmC7gEC/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
