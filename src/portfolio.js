@@ -3,13 +3,13 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import LoadingAnimation from "./assets/lottie/LoadingAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: LoadingAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Aicha M. Camara",
+  title: "Hello, I'm Aïcha",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
   ),
+  //Civic Technologist 💻 | Data Journalist 🗞 | 
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jvNjgB1QTYfH1DOGFx_8wKbM0V2uyjXY/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/necabotheking/",
+  gmail: "aichacamara@uchicago.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,22 +44,34 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Tech Stack",
+  subTitle: "Data Science, Machine Learning, Visualization, and AI",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop informative data visualizations for effective communication of insights"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implement machine learning algorithms for predictive analytics"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Utilize statistical techniques to analyze and interpret complex datasets"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },    
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,44 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +98,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "The University of Chicago",
+      logo: require("./assets/images/UChicagologo.png"),
+      subHeader: "Master of Science in Computational Analysis and Public Policy",
+      duration: "September 2022 - June 2024",
+      desc: "Just Tech, Government Accountability, and AI Focus",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Took courses on Software Engineering, Web Security, Data Science and Data Visualization.",
+        "Served as the Director of Data Visualization for Black Policy Review.",
+        "Volunteered with the UChicago TechTeam Volunteer on a project with Reproductive Transparency Now."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Central Florida",
+      logo: require("./assets/images/UCFlogo.png"),
+      subHeader: "Bachelor of Arts in International and Global Studies",
+      duration: "January 2018 - May 2022",
+      desc: "Security and East Asian Studies Focus",
+      descBullets: [
+              "Participated in research centering underrepresented minority groups in Japan and published an Honors Thesis.",
+              "Presented Honors Research at 2 conference and won 3 awards.",
+              "Served as the Australia and Asia Pacific Intern in UCF Global Perspectives Office and published 5 briefs.",
+              ]
     }
   ]
 };
@@ -150,7 +127,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +151,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Science Intern",
+      company: "Invisible Institute",
+      companylogo: require("./assets/images/InvisibleInstituteLogo.png"),
+      date: " July 2023 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leverage Python, Jupyter, and Git to streamline the Citizens Police Data Project data cleaning pipeline",
+        "Craft engaging visualizations utilizing Tableau for an investigation into missing black women in Chicago",
+        "Develop the foundation for data driven investigation into the victimization of sex workers"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Assistant",
+      company: "UChicago Justice Project",
+      companylogo: require("./assets/images/JusticeProject.png"),
+      date: "July 2023 – Present",
+      descBullets: 
+      [
+        "Support the Lead Data Scientist on investigation into connections between police nonprofit boards",
+        "Collaborate with RA team on analyzing Chicago death records to record homicides",
+        "Utilize geospatial tools in Python to create Chicago homicide map from 1940s to 1950s"
+        ]
     }
   ]
 };
@@ -205,36 +180,50 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Large Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/InvisibleInstituteLogo.png"),
+      projectName: "Civic Police Data Project Pipeline (In-Progress)",
+      projectDesc: "",
+      toolsDesc: "Python",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://invisible.institute/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/RTN.jpeg"),
+      projectName: "Reproductive Transparency Now",
+      projectDesc: "Created an automated text processing pipeline a team of UChicago TechTeam volunteers.",
+      toolsDesc: "Python, Google Drive API",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.reprotransparency.org/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ClimateCabinet.png"),
+      projectName: "Climate Cabinet",
+      projectDesc: "Developed a Searchable Database of Arizona, Michigan, Minnesota, and Pennsylvania's campaign finance data",
+      toolsDesc: "Python, Jupyter, Docker",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.climatecabinetaction.org/"
         }
       ]
     }
@@ -246,70 +235,60 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements and Publications "),
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Harris Ambassador",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "2024-2024 Harris Ambassador for the MSCAPP program. Participated on current student and alumni panels on experiences in the program. Met one on one with students to discuss Harris life and pressing questions",
+      image: require("./assets/images/Harris.png"),
+      imageAlt: "UChicago Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Harris Ambassador Profile",
+          url: "https://harris.uchicago.edu/admissions/meet-with-harris/connect-with-our-students"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Honors Thesis",
+      subtitle: "Shift or Stagnation: Analyzing Changing Japanese Attitudes Towards Various Minorities. Worked in the UCF Research and Mentoring Program with Thesis Chair Dr. Myunghee Kim to investigate the changes in views toward the Ainu, Women, LGBTQ and Biracial Japanese populations",
+      image: require("./assets/images/UCFlogo.png"),
+      imageAlt: "UCF Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+  
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Honors Thesis",
+          url: "https://stars.library.ucf.edu/honorstheses/1121/"
         }
       ]
-    }
+    },
+    {
+      title: "Founder’s Day Outstanding Thesis Award in Social Sciences, Business, and Education",
+      subtitle:
+        "Nominated by Honors Thesis Chair and chosen by the College of Sciences Dean as one of four awardees for the College of Sciences",
+      image: require("./assets/images/UCFlogo.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "UCF News",
+          url: "hhttps://www.ucf.edu/news/ucf-student-honors-celebration-spotlights-top-achievers/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
-
+// change to publications section
 const blogSection = {
-  title: "Blogs",
+  title: "Publications and Data Visualizations",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -324,26 +303,26 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Data Visualization and Reporting",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
+      title: "Missing in Chicago",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +335,20 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Feel free to send me a message",
+ email_address: "aichacamara@uchicago.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
