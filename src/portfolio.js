@@ -147,6 +147,8 @@ const techStack = {
 
 // Work experience section
 
+// Work experience section
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -165,14 +167,27 @@ const workExperiences = {
       role: "Research Assistant",
       company: "UChicago Justice Project",
       companylogo: require("./assets/images/JusticeProject.png"),
-      date: "July 2023 – Present",
+      date: "July 2023 – January 2024",
       descBullets: 
       [
-        "Support the Lead Data Scientist on investigation into connections between police nonprofit boards",
-        "Collaborate with RA team on analyzing Chicago death records to record homicides",
-        "Utilize geospatial tools in Python to create Chicago homicide map from 1940s to 1950s"
+        "Supported the Lead Data Scientist on investigation into connections between police nonprofit boards",
+        "Collaborated with RA team on analyzing Chicago death records to record homicides",
+        "Learned geospatial tools in Python to create Chicago homicide map from 1940s to 1950s"
+        ]
+    },
+    {
+      role: "Japanese Indigenous Research Intern",
+      company: "Indian Health Service",
+      companylogo: require("./assets/images/ihs.png"),
+      date: "August 2019 – May 2021",
+      descBullets: 
+      [
+        "Assisted the project leader in selecting and interviewing 2020-2021 VSFS intern team",
+        "Conducted in-depth ENG/JPN research on indigenous populations in Japan, contributing to a nuanced understanding of cultural dynamics",
+        "Compiled comprehensive findings and expertly assembled research reports for the project website, enhancing accessibility and impact"
         ]
     }
+
   ]
 };
 
