@@ -25,7 +25,6 @@ const greeting = {
   subTitle: emoji(
     "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
   ),
-  //Civic Technologist 💻 | Data Journalist 🗞 | 
   resumeLink:
     "https://drive.google.com/file/d/15lZNbIS8HztwYzVJJXfV2K4jIbmC7gEC/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -178,7 +177,7 @@ const workExperiences = {
     {
       role: "Japanese Indigenous Research Intern",
       company: "Indian Health Service",
-      companylogo: require("./assets/images/ihs.png"),
+      companylogo: require("./assets/images/ihs.jpeg"),
       date: "August 2019 – May 2021",
       descBullets: 
       [
