@@ -26,7 +26,7 @@ const greeting = {
     "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15lZNbIS8HztwYzVJJXfV2K4jIbmC7gEC/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ncJbtWggACTLpBInSMiewDvl-FjEcdri/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -202,12 +202,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Large Projects",
-  subtitle: "",
+  subtitle: "Selected Civic-Tech Oriented Data Science projects ",
   projects: [
     {
       image: require("./assets/images/InvisibleInstituteLogo.png"),
-      projectName: "Civic Police Data Project Pipeline (In-Progress)",
-      projectDesc: "",
+      projectName: "Civic Police Data Project Pipeline",
+      projectDesc: "Streamlining the Citizens Police Data Project data processing pipeline to increase officer misconduct report name matching efficiency",
       toolsDesc: "Python",
       footerLink: [
         {
@@ -218,7 +218,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/RTN.jpeg"),
+      image: require("./assets/images/RTN.png"),
       projectName: "Reproductive Transparency Now",
       projectDesc: "Created an automated text processing pipeline a team of UChicago TechTeam volunteers.",
       toolsDesc: "Python, Google Drive API",
@@ -230,7 +230,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ClimateCabinet.png"),
+      image: require("./assets/images/climatecabinet.jpeg"),
       projectName: "Climate Cabinet",
       projectDesc: "Developed a Searchable Database of Arizona, Michigan, Minnesota, and Pennsylvania's campaign finance data",
       toolsDesc: "Python, Jupyter, Docker",
@@ -250,6 +250,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements and Publications "),
+  subtitle: "Selected Achievements and Awards",
 
   achievementsCards: [
     {
@@ -324,14 +325,9 @@ const blogSection = {
 
 const talkSection = {
   title: "Data Visualization and Reporting",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
   talks: [
     {
       title: "Missing in Chicago",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
