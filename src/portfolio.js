@@ -26,7 +26,7 @@ const greeting = {
     "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ncJbtWggACTLpBInSMiewDvl-FjEcdri/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1no7Klv1x5k59D-sABwGT_uLZgGFz0XJ8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -103,9 +103,9 @@ const educationInfo = {
       duration: "September 2022 - June 2024",
       desc: "Just Tech, Government Accountability, and AI Focus",
       descBullets: [
-        "Took courses on Software Engineering, Web Security, Data Science and Data Visualization.",
+        "Took courses on Software Engineering, Web Security, Data Science, and Data Visualization.",
         "Served as the Director of Data Visualization for Black Policy Review.",
-        "Volunteered with the UChicago TechTeam Volunteer on a project with Reproductive Transparency Now."
+        "Volunteered with the UChicago TechTeam Volunteer on projects with Reproductive Transparency Now and Hope Chicago."
       ]
     },
     {
@@ -175,6 +175,18 @@ const workExperiences = {
         ]
     },
     {
+      role: "Harris Jumpstart Program Teaching Assistant",
+      company: "University of Chicago",
+      companylogo: require("./assets/images/Harris.png"),
+      date: "August 2023",
+      descBullets: 
+      [
+        "Collaborated with the teaching assistant team to ensure the seamless delivery of the Jumpstart program",
+        "Facilitated daily Teaching Assistant sessions aimed at reinforcing key concepts and students' questions",
+        "Provided crucial additional support to students, aiding in the development of robust foundations in math and enhancing their readiness for the upcoming academic year"
+        ]
+    },
+    {
       role: "Japanese Indigenous Research Intern",
       company: "Indian Health Service",
       companylogo: require("./assets/images/ihs.jpeg"),
@@ -202,7 +214,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Large Projects",
-  subtitle: "Selected Civic-Tech Oriented Data Science projects ",
+  subtitle: "Selected Data Science projects ",
   projects: [
     {
       image: require("./assets/images/InvisibleInstituteLogo.png"),
@@ -322,6 +334,7 @@ const blogSection = {
 };
 
 // Talks Sections
+// to edit into data visualization and reporting section later
 
 const talkSection = {
   title: "Data Visualization and Reporting",
@@ -361,7 +374,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
