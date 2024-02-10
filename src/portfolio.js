@@ -166,7 +166,7 @@ const workExperiences = {
       role: "Research Assistant",
       company: "UChicago Justice Project",
       companylogo: require("./assets/images/JusticeProject.png"),
-      date: "July 2023 – January 2024",
+      date: "May 2023 – January 2024",
       descBullets: 
       [
         "Supported the Lead Data Scientist on investigation into connections between police nonprofit boards",
@@ -263,7 +263,6 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements and Publications "),
   subtitle: "Selected Achievements and Awards",
-
   achievementsCards: [
     {
       title: "Harris Ambassador",
