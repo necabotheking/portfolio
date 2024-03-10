@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Aicha M. Camara",
+  username: "Aicha",
   title: "Hello, I'm Aïcha",
   subTitle: emoji(
     "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1no7Klv1x5k59D-sABwGT_uLZgGFz0XJ8/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -362,7 +362,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Feel free to send me a message",
+  subtitle: "For resume or CV, contact me",
  email_address: "aichacamara@uchicago.edu"
 };
 
