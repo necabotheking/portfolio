@@ -23,7 +23,7 @@ const greeting = {
   username: "Aicha",
   title: "Hello, I'm Aïcha",
   subTitle: emoji(
-    "Computational Analysis and Public Policy Graduate Student interested in the intersection of social justice and tech"
+    "Public Interest Technologist, Data Journalist, and Researcher interested in the intersection of social justice and techology"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -103,9 +103,9 @@ const educationInfo = {
       duration: "September 2022 - June 2024",
       desc: "Just Tech, Government Accountability, and AI Focus",
       descBullets: [
-        "Took courses on Software Engineering, Web Security, Data Science, and Data Visualization.",
-        "Served as the Director of Data Visualization for Black Policy Review.",
-        "Volunteered with the UChicago TechTeam Volunteer on projects with Reproductive Transparency Now and Hope Chicago."
+        "Took courses on Software Engineering, Web Security, Data Science, and Machine Learning.",
+        ".",
+        "Volunteered with the UChicago TechTeam Volunteer on projects with Reproductive Transparency Now"
       ]
     },
     {
@@ -144,7 +144,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
 
 // Work experience section
 
@@ -157,9 +156,9 @@ const workExperiences = {
       companylogo: require("./assets/images/InvisibleInstituteLogo.png"),
       date: " July 2023 – Present",
       descBullets: [
-        "Leverage Python, Jupyter, and Git to streamline the Citizens Police Data Project data cleaning pipeline",
-        "Craft engaging visualizations utilizing Tableau for an investigation into missing black women in Chicago",
-        "Develop the foundation for data driven investigation into the victimization of sex workers"
+        "Craft engaging visualizations for a Pulitzer Prize Winning City Bureau and Invisible Institute investigation into missing Black Women in Chicago for publication on chicagomissingpersons.com",
+        "Developed and implemented comprehensive unit tests using Python to rigorously evaluate data formatting and content for publication on champaign.cpdp.co",
+        "Develop the foundation for data driven investigation into the victimization of sex workers collaborating with the Data Journalist and Technologists"
       ]
     },
     {
@@ -265,6 +264,20 @@ const achievementSection = {
   subtitle: "Selected Achievements and Awards",
   achievementsCards: [
     {
+        title: "Pulitzer Prize in Local Reporting for Missing in Chicago:",
+        subtitle:
+          "Data Visualization Specialist for Award Winning Investigation",
+        image: require("./assets/images/InvisibleInstituteLogo.png.png"),
+        imageAlt: "Invisible Institute",
+        footerLink: [
+          {
+            name: "New York Times Announcement",
+            url: "https://www.nytimes.com/2024/05/06/business/media/invisible-institute-two-pulitzer-prizes.html"
+          }
+        ]
+      },
+
+    {
       title: "Harris Ambassador",
       subtitle:
         "2024-2024 Harris Ambassador for the MSCAPP program. Participated on current student and alumni panels on experiences in the program. Met one on one with students to discuss Harris life and pressing questions",
@@ -292,7 +305,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Founder’s Day Outstanding Thesis Award in Social Sciences, Business, and Education",
+      title: "Founder's Day Outstanding Thesis Award in Social Sciences, Business, and Education",
       subtitle:
         "Nominated by Honors Thesis Chair and chosen by the College of Sciences Dean as one of four awardees for the College of Sciences",
       image: require("./assets/images/UCFlogo.png"),
