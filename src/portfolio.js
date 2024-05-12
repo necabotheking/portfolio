@@ -264,7 +264,7 @@ const achievementSection = {
     {
       title: "Pulitzer Prize in Local Reporting for Missing in Chicago:",
       subtitle: "Data Visualization Specialist for Award Winning Investigation",
-      image: require("./assets/images/InvisibleInstituteLogo.png.png"),
+      image: require("./assets/images/InvisibleInstituteLogo.png"),
       imageAlt: "Invisible Institute",
       footerLink: [
         {
