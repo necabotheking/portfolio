@@ -11,7 +11,7 @@ import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -22,9 +22,7 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={
-                  isDark ? "dark-mode greeting-text" : "greeting-text"
-                }
+                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
                 {greeting.title}{" "}
@@ -64,5 +62,3 @@ export default function Greeting() {
     </Fade>
   );
 }
-
-

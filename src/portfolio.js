@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Public Interest Technologist, Data Journalist, and Researcher interested in the intersection of social justice and techology"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,7 +51,7 @@ const skillsSection = {
     emoji("⚡ Implement machine learning algorithms for predictive analytics"),
     emoji(
       "⚡ Utilize statistical techniques to analyze and interpret complex datasets"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -70,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },    
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -99,7 +98,8 @@ const educationInfo = {
     {
       schoolName: "The University of Chicago",
       logo: require("./assets/images/UChicagologo.png"),
-      subHeader: "Master of Science in Computational Analysis and Public Policy",
+      subHeader:
+        "Master of Science in Computational Analysis and Public Policy",
       duration: "September 2022 - June 2024",
       desc: "Just Tech, Government Accountability, and AI Focus",
       descBullets: [
@@ -115,10 +115,10 @@ const educationInfo = {
       duration: "January 2018 - May 2022",
       desc: "Security and East Asian Studies Focus",
       descBullets: [
-              "Participated in research centering underrepresented minority groups in Japan and published an Honors Thesis.",
-              "Presented Honors Research at 2 conference and won 3 awards.",
-              "Served as the Australia and Asia Pacific Intern in UCF Global Perspectives Office and published 5 briefs.",
-              ]
+        "Participated in research centering underrepresented minority groups in Japan and published an Honors Thesis.",
+        "Presented Honors Research at 2 conference and won 3 awards.",
+        "Served as the Australia and Asia Pacific Intern in UCF Global Perspectives Office and published 5 briefs."
+      ]
     }
   ]
 };
@@ -144,7 +144,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -166,38 +165,34 @@ const workExperiences = {
       company: "UChicago Justice Project",
       companylogo: require("./assets/images/JusticeProject.png"),
       date: "May 2023 – January 2024",
-      descBullets: 
-      [
+      descBullets: [
         "Supported the Lead Data Scientist on investigation into connections between police nonprofit boards",
         "Collaborated with RA team on analyzing Chicago death records to record homicides",
         "Learned geospatial tools in Python to create Chicago homicide map from 1940s to 1950s"
-        ]
+      ]
     },
     {
       role: "Harris Jumpstart Program Teaching Assistant",
       company: "University of Chicago",
       companylogo: require("./assets/images/Harris.png"),
       date: "August 2023",
-      descBullets: 
-      [
+      descBullets: [
         "Collaborated with the teaching assistant team to ensure the seamless delivery of the Jumpstart program",
         "Facilitated daily Teaching Assistant sessions aimed at reinforcing key concepts and students' questions",
         "Provided crucial additional support to students, aiding in the development of robust foundations in math and enhancing their readiness for the upcoming academic year"
-        ]
+      ]
     },
     {
       role: "Japanese Indigenous Research Intern",
       company: "Indian Health Service",
       companylogo: require("./assets/images/ihs.jpeg"),
       date: "August 2019 – May 2021",
-      descBullets: 
-      [
+      descBullets: [
         "Assisted the project leader in selecting and interviewing 2020-2021 VSFS intern team",
         "Conducted in-depth ENG/JPN research on indigenous populations in Japan, contributing to a nuanced understanding of cultural dynamics",
         "Compiled comprehensive findings and expertly assembled research reports for the project website, enhancing accessibility and impact"
-        ]
+      ]
     }
-
   ]
 };
 
@@ -218,7 +213,8 @@ const bigProjects = {
     {
       image: require("./assets/images/InvisibleInstituteLogo.png"),
       projectName: "Civic Police Data Project Pipeline",
-      projectDesc: "Streamlining the Citizens Police Data Project data processing pipeline to increase officer misconduct report name matching efficiency",
+      projectDesc:
+        "Streamlining the Citizens Police Data Project data processing pipeline to increase officer misconduct report name matching efficiency",
       toolsDesc: "Python",
       footerLink: [
         {
@@ -231,7 +227,8 @@ const bigProjects = {
     {
       image: require("./assets/images/RTN.png"),
       projectName: "Reproductive Transparency Now",
-      projectDesc: "Created an automated text processing pipeline a team of UChicago TechTeam volunteers.",
+      projectDesc:
+        "Created an automated text processing pipeline a team of UChicago TechTeam volunteers.",
       toolsDesc: "Python, Google Drive API",
       footerLink: [
         {
@@ -243,7 +240,8 @@ const bigProjects = {
     {
       image: require("./assets/images/climatecabinet.jpeg"),
       projectName: "Climate Cabinet",
-      projectDesc: "Developed a Searchable Database of Arizona, Michigan, Minnesota, and Pennsylvania's campaign finance data",
+      projectDesc:
+        "Developed a Searchable Database of Arizona, Michigan, Minnesota, and Pennsylvania's campaign finance data",
       toolsDesc: "Python, Jupyter, Docker",
       footerLink: [
         {
@@ -264,18 +262,17 @@ const achievementSection = {
   subtitle: "Selected Achievements and Awards",
   achievementsCards: [
     {
-        title: "Pulitzer Prize in Local Reporting for Missing in Chicago:",
-        subtitle:
-          "Data Visualization Specialist for Award Winning Investigation",
-        image: require("./assets/images/InvisibleInstituteLogo.png.png"),
-        imageAlt: "Invisible Institute",
-        footerLink: [
-          {
-            name: "New York Times Announcement",
-            url: "https://www.nytimes.com/2024/05/06/business/media/invisible-institute-two-pulitzer-prizes.html"
-          }
-        ]
-      },
+      title: "Pulitzer Prize in Local Reporting for Missing in Chicago:",
+      subtitle: "Data Visualization Specialist for Award Winning Investigation",
+      image: require("./assets/images/InvisibleInstituteLogo.png.png"),
+      imageAlt: "Invisible Institute",
+      footerLink: [
+        {
+          name: "New York Times Announcement",
+          url: "https://www.nytimes.com/2024/05/06/business/media/invisible-institute-two-pulitzer-prizes.html"
+        }
+      ]
+    },
 
     {
       title: "Harris Ambassador",
@@ -293,11 +290,11 @@ const achievementSection = {
 
     {
       title: "Honors Thesis",
-      subtitle: "Shift or Stagnation: Analyzing Changing Japanese Attitudes Towards Various Minorities. Worked in the UCF Research and Mentoring Program with Thesis Chair Dr. Myunghee Kim to investigate the changes in views toward the Ainu, Women, LGBTQ and Biracial Japanese populations",
+      subtitle:
+        "Shift or Stagnation: Analyzing Changing Japanese Attitudes Towards Various Minorities. Worked in the UCF Research and Mentoring Program with Thesis Chair Dr. Myunghee Kim to investigate the changes in views toward the Ainu, Women, LGBTQ and Biracial Japanese populations",
       image: require("./assets/images/UCFlogo.png"),
       imageAlt: "UCF Logo",
       footerLink: [
-  
         {
           name: "Honors Thesis",
           url: "https://stars.library.ucf.edu/honorstheses/1121/"
@@ -305,7 +302,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "Founder's Day Outstanding Thesis Award in Social Sciences, Business, and Education",
+      title:
+        "Founder's Day Outstanding Thesis Award in Social Sciences, Business, and Education",
       subtitle:
         "Nominated by Honors Thesis Chair and chosen by the College of Sciences Dean as one of four awardees for the College of Sciences",
       image: require("./assets/images/UCFlogo.png"),
@@ -316,7 +314,7 @@ const achievementSection = {
           url: "hhttps://www.ucf.edu/news/ucf-student-honors-celebration-spotlights-top-achievers/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -357,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false  // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -376,7 +374,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "For resume or CV, contact me",
- email_address: "aichacamara@uchicago.edu"
+  email_address: "aichacamara@uchicago.edu"
 };
 
 // Twitter Section

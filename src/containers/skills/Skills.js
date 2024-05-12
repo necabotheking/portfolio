@@ -21,9 +21,7 @@ export default function Skills() {
             {illustration.animated ? (
               <DisplayLottie animationData={PersonSitting} />
             ) : (
-              <img
-                alt="Research"
-              ></img>
+              <img alt="Research"></img>
             )}
           </div>
         </Fade>
