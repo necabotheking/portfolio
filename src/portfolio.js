@@ -117,8 +117,8 @@ const educationInfo = {
       desc: "Security and East Asian Studies Focus",
       descBullets: [
         "Conducted in-depth research on underrepresented minority groups in Japan, culminating in the publication of an Honors Thesis.",
-    "Presented my Honors research at two academic conferences, earning three prestigious awards for excellence in research.",
-    "Served as the Australia and Asia Pacific Intern at the UCF Global Perspectives Office, where I published five policy briefs on regional security issues."
+        "Presented my Honors research at two academic conferences, earning three prestigious awards for excellence in research.",
+        "Served as the Australia and Asia Pacific Intern at the UCF Global Perspectives Office, where I published five policy briefs on regional security issues."
       ]
     }
   ]
@@ -222,7 +222,6 @@ const bigProjects = {
   title: "Large Projects",
   subtitle: "Selected Data Science projects ",
   projects: [
-    {},
     {
       image: require("./assets/images/s2s.png"),
       projectName: "Civic Tech Web Application: Shoulder to Shoulder",
