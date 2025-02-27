@@ -23,7 +23,7 @@ const greeting = {
   username: "Aicha",
   title: "Hello, I'm Aïcha",
   subTitle: emoji(
-    "Public Interest Technologist, Data Journalist, and Researcher interested in the intersection of social justice and techology"
+    "Data Scientist, Software Developer, and Public Interest Technologist interested in the intersection of social impact and techology"
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,7 +33,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/necabotheking/",
-  gmail: "aichacamara@uchicago.edu",
+  gmail: "aicha@aichacamara.me",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -46,11 +46,12 @@ const skillsSection = {
   subTitle: "Data Science, Machine Learning, Visualization, and AI",
   skills: [
     emoji(
-      "⚡ Develop informative data visualizations for effective communication of insights"
+      "🚀 Design and deploy dynamic data visualizations that transform raw data into clear, actionable insights."
     ),
-    emoji("⚡ Implement machine learning algorithms for predictive analytics"),
+    emoji("🤖 Develop and optimize machine learning models to deliver accurate, predictive analytics for real-world applications."
+    ),
     emoji(
-      "⚡ Utilize statistical techniques to analyze and interpret complex datasets"
+      "🔍 Leverage advanced statistical techniques to extract meaningful patterns and trends from large, complex datasets."
     )
   ],
 
@@ -103,9 +104,9 @@ const educationInfo = {
       duration: "September 2022 - June 2024",
       desc: "Just Tech, Government Accountability, and AI Focus",
       descBullets: [
-        "Took courses on Software Engineering, Web Security, Data Science, and Machine Learning.",
-        ".",
-        "Volunteered with the UChicago TechTeam Volunteer on projects with Reproductive Transparency Now"
+        "Studied core topics including Software Engineering, Web Security, Data Science, and Machine Learning to build a strong technical foundation.",
+        "Engaged in hands-on projects applying machine learning and data analysis to tackle real-world policy issues.",
+        "Volunteered with the UChicago TechTeam on impactful projects, including the Reproductive Transparency Now initiative, leveraging tech for social good."
       ]
     },
     {
@@ -115,9 +116,9 @@ const educationInfo = {
       duration: "January 2018 - May 2022",
       desc: "Security and East Asian Studies Focus",
       descBullets: [
-        "Participated in research centering underrepresented minority groups in Japan and published an Honors Thesis.",
-        "Presented Honors Research at 2 conference and won 3 awards.",
-        "Served as the Australia and Asia Pacific Intern in UCF Global Perspectives Office and published 5 briefs."
+        "Conducted in-depth research on underrepresented minority groups in Japan, culminating in the publication of an Honors Thesis.",
+    "Presented my Honors research at two academic conferences, earning three prestigious awards for excellence in research.",
+    "Served as the Australia and Asia Pacific Intern at the UCF Global Perspectives Office, where I published five policy briefs on regional security issues."
       ]
     }
   ]
@@ -150,10 +151,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Data Scientist",
+      company: "Mathematica Policy Research",
+      companylogo: require(".//assets/images/mathematica.jpg"),
+      date: "June 2024 - Present",
+      descBullets: [
+        "Conducted advanced data analysis and statistical modeling to support evidence-based policy recommendations in various sectors, including health, education, and social services.",
+        "Developed and implemented scripts to automate manual processes, streamlining workflows and improving efficiency, resulting in cost savings and enhanced value for stakeholders.",
+        "Collaborated with cross-functional teams, including economists, researchers, and policy experts, to design and implement data-driven solutions addressing complex public policy challenges."
+      ]
+    },
+    {
       role: "Data Science Intern",
       company: "Invisible Institute",
       companylogo: require("./assets/images/InvisibleInstituteLogo.png"),
-      date: " July 2023 – Present",
+      date: "July 2023 – June 2024",
       descBullets: [
         "Craft engaging visualizations for a Pulitzer Prize Winning City Bureau and Invisible Institute investigation into missing Black Women in Chicago for publication on chicagomissingpersons.com",
         "Developed and implemented comprehensive unit tests using Python to rigorously evaluate data formatting and content for publication on champaign.cpdp.co",
@@ -210,6 +222,20 @@ const bigProjects = {
   title: "Large Projects",
   subtitle: "Selected Data Science projects ",
   projects: [
+    {},
+    {
+      image: require("./assets/images/s2s.png"),
+      projectName: "Civic Tech Web Application: Shoulder to Shoulder",
+      projectDesc:
+      "Served as Chief Backend Engineer deploying a web application to combat loneliness and social isolation by building a tool to connect community members through generated events.",
+      toolsDesc: "Python, Django, RestfulAPIs",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/necabotheking/ShoulderToShoulder"
+        }
+      ]
+    },
     {
       image: require("./assets/images/InvisibleInstituteLogo.png"),
       projectName: "Civic Police Data Project Pipeline",
@@ -245,7 +271,7 @@ const bigProjects = {
       toolsDesc: "Python, Jupyter, Docker",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "View Project",
           url: "https://www.climatecabinetaction.org/"
         }
       ]
