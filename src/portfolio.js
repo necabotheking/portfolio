@@ -400,7 +400,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "For resume or CV, contact me",
-  email_address: "aichacamara@uchicago.edu"
+  email_address: "aicha@aichacamara.me"
 };
 
 // Twitter Section
